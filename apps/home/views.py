@@ -9,7 +9,8 @@ from django.template import RequestContext
 def home(request):
 
 
-    context = {}
+
+    context = {'APP_TITLE': settings.APPLICATION_TITLE, }
 
     return render_to_response('home/index.html',
                               context,

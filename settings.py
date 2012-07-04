@@ -18,6 +18,9 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+
+APPLICATION_TITLE = "Hello LESS World!"
+
 DBPATH = os.path.join(BASE_DIR, 'db/db.db')
 
 print "Base:",BASE_DIR

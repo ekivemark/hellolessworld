@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %} Welcome to My World!{% endblock %}
+{% block title %} {{ APP_TITLE }}{% endblock %}
 
 {% block featureBox %}
 
@@ -7,7 +7,7 @@
 
 @ekivemark
 
-<p>This is using Bootstrap and LESS
+<p>{{ APP_TITLE }} is using Bootstrap and LESS
 </p>
 <p>Can we print the STATIC_URL SETTING: [ {{ STATIC_URL }} ]</p>
 
