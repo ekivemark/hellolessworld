@@ -193,13 +193,3 @@ LOGGING = {
     }
 }
 
-
-#Django-Compass CSS Pre-processor settings
-#todo. do we still need this section
-
-COMPASS_INPUT = MAIN_STATIC_ROOT + '/sass'
-COMPASS_OUTPUT = MAIN_STATIC_ROOT + '/stylesheets'
-COMPASS_STYLE = 'compact'
-COMPASS_REQUIRES = (
-    'ninesixty',  # 960.gs Grid System
-    )
